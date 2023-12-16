@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/myrespo/static/css/main.67464459.css",
+    "main.js": "/myrespo/static/js/main.1db09857.js",
+    "static/media/chapter1.pdf": "/myrespo/static/media/chapter1.621fdd46439a5dc60075.pdf",
+    "index.html": "/myrespo/index.html",
+    "main.67464459.css.map": "/myrespo/static/css/main.67464459.css.map",
+    "main.1db09857.js.map": "/myrespo/static/js/main.1db09857.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67464459.css",
+    "static/js/main.1db09857.js"
+  ]
+}
