@@ -29,7 +29,7 @@ function App() {
     <div className="flex flex-col">
         <Title />
         <Menu />
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row">
             <div className="basis-1/5">
                 <Sidebar onClick={handleClick}/>
             </div>

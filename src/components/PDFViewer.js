@@ -1,4 +1,4 @@
-import Chaper1 from './chapter1.pdf';
+
 
 
 function PDFViewer({path}) {
@@ -6,7 +6,7 @@ function PDFViewer({path}) {
         <div>
             <h1>Click here to Download file</h1>
             <a
-                href = {Chaper1}
+                href = {"http"}
                 download="Example-download-file"
                 target='_blank'
                 rel="noreferrer"

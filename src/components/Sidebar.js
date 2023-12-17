@@ -59,7 +59,7 @@ function Sidebar({onClick}) {
     ]
 
     return (
-        <div>
+        <div className='w-60'>
             <Route path='/eleven'>
                 <List showList={sidebarConfig.eleven}/>
             </Route>
