@@ -29,6 +29,9 @@ function App() {
     <div className="flex flex-col">
         <Title />
         <Menu />
+        <Route path="/">
+            <HomePage />
+        </Route>
         <div className="flex flex-row">
             <div className="basis-1/5">
                 <Sidebar onClick={handleClick}/>
@@ -36,8 +39,8 @@ function App() {
             <div className="basics-4/5">
                 {showDisplay()}
             </div>
-            
         </div>
+        
     </div>
     );
 }

@@ -66,9 +66,6 @@ function Sidebar({onClick}) {
             <Route path='/eleven/physics'>
                 <List showList={elevenPhysicsConfig} onClick = {onClick} notRouteable={true}/>
             </Route>
-            <Route path="/">
-                <HomePage />
-            </Route>
             <Route path='/books'>
                 <List showList={booksConfig}/>
             </Route>
